@@ -10,7 +10,7 @@ the profile of other users, like them
 xampp web server solution stack for( apache and database)
 
 # _clone 
-clone project inside hdocs
+clone project inside hdocs of Xampp
 
 # _database
 run : config.setup.php to create database with tables(with user information inside)
