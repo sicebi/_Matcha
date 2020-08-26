@@ -2,7 +2,7 @@
   //require 'required/functions.php';
 
   try {
-    $pdo = new PDO('mysql:host=localhost;dbname=matcha', 'root', '0780307349');
+    $pdo = new PDO('mysql:host=localhost;dbname=matcha', 'root', '');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $sth = $pdo->prepare('SELECT COUNT(*) FROM users WHERE mail = :mail AND state = :hash');
     $sth->bindParam(':mail', $_GET[mail], PDO::PARAM_STR);
