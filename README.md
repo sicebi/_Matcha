@@ -15,3 +15,23 @@ clone project inside hdocs of Xampp
 # _database
 run : config.setup.php to create database with tables(with user information inside)
 
+# _Test plan
+Matcha Marking Sheet Summarised
+● Launch web Server and run on localhost
+● Create an account
+● Login
+● Edit extended profile
+● View profile proposals
+● Research/filter
+● Geolocation
+● Popularity rating
+● Notifications
+● Consultations
+● View profile
+● Unlike user
+● Block
+● Chat
+
+
+
+
